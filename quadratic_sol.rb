@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
-#
-# import CMath library
-#
+
 require 'cmath'
 
 DECIMAL_PLACES = 3
@@ -19,7 +17,7 @@ Help:
    You must supply the arguments as 3 numeric 
    numbers for a, b and c of the quadratic equation, 
    the value of a cannot be 0, but all values can 
-   be negative.
+   be negative. E.g. ./quadratic_sol.rb 5 6 1
 
   EOF
 end
@@ -104,7 +102,7 @@ if all_args_are_valid(a,b,c)
 
   check_results_are_valid(a,b,c,resa,resb)
 
-  puts "Results displayed to #{DECIMAL_PLACES} decimal places."
+  puts "Results displayed to a maximum of #{DECIMAL_PLACES} decimal places."
 
 else
   puts ""

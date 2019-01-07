@@ -9,17 +9,22 @@ def display_help
   
 Help:
 
-   Usage: ./quadratic_sol.rb [arguments]
+   Usage: 
+     quadratic_sol.rb <a> <b> <c>
+   
+   Options:
+     -h --help   Show this help text
 
    When calling the script as above, you can supply 3 numeric 
    numbers the arguments for a, b and c of the quadratic equation, 
-   the value of a cannot be 0, but all values can be negative. 
+   the value of a cannot be 0, but all values can be negative and have decimals 
    E.g. ./quadratic_sol.rb 5 6 1
 
    If you do not supply any arguments then the program
    will ask you to enter them.
 
   EOF
+
 end
 
 # this is the first part of the Quadratic Formula (-b)

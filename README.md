@@ -22,12 +22,12 @@ In a terminal, change to the directory containing the quadratic_sol.rb
 Run the script using:
 
 ```
-./quadratic_sol.rb [arguments]
+./quadratic_sol.rb <a> <b> <c>
 ```
 
-You must supply 3 arguments for a,b and c.
+You must supply 3 numeric arguments for a, b and c.
 
-* all values must be integers (i.e. whole numbers - negative of positive)
+* all values must be numbers (negative of positive, decimals are allowed)
 * the value of 'a' cannot be 0
 
 E.G.
@@ -35,7 +35,7 @@ E.G.
 ```
 ./quadratic_sol.rb 5 6 1
 ```
-Please note: Some combinations of values for a,b and c do not have a real solution.
+Please note: Some combinations of values for a, b and c do not have a real solution.
 
 For more information about Quadratic Equations please see:
 ```
